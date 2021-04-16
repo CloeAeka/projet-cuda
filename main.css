@@ -1,0 +1,427 @@
+.containerheader {
+    background-color: #87509c;
+    max-width: 100%;
+}
+
+.logo {
+    padding: 50px;
+}
+
+body {
+    margin: 0px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,300;0,400;1,400&display=swap');
+
+.buttonwork {
+    background-color: #eb7d4b;
+    border-bottom: solid #c86a40;
+    border-radius: 0.50rem;
+    display: flex;
+    flex-direction: center;
+    margin: auto;
+}
+
+.separateur {
+  height: 40px;
+}
+
+.separateur2 {
+  height: 80px;
+}
+
+button {
+  align-items: center;
+  border: none;
+}
+
+a {
+    text-decoration: none!important;
+}
+
+.button{
+  padding:20px;
+}
+
+button:hover {
+    background-color: #c86a40;
+}
+
+
+li:hover {
+  background-color: #d74680;
+}
+
+ul {
+  padding: 0px;
+}
+
+h2{
+    text-align: center;
+    padding: 50px;
+    margin: 0px;
+}
+
+#item1 {
+  width: 50px;
+}
+
+
+
+p{
+    text-align: center;
+    font-size: 25px;
+}
+
+.para {
+    font-size: 15px;
+}
+
+.parateam {
+  font-size: 20px;
+  text-align: left;
+}
+
+.colorpen {
+  color: #3c4761;
+}
+
+span .titre2 {
+  color:#3c4761 ;
+}
+
+span {
+  color:#3c4761;
+}
+
+.titre, p, h2, a{
+    color: white;
+}
+
+.titre, .titre2 {
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.yellow {
+  color: #ffdd99;
+  font-size: 15px;
+  text-align: left;
+}
+
+.titre3 {
+  text-align: left;
+  color: white;
+  font-size: large;
+}
+
+.image {
+    padding: 10px;
+}
+
+.containerabout {
+  background-color: #d74680;
+}
+
+.containerservice {
+    background-color: #17c2a4;
+    max-width: 100%;
+}
+
+.containerteam {
+    background-color: #e7f1f8;
+    max-width: 100%;
+}
+
+.containerfooter {
+  background-color: #3c5499;
+}
+
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    padding: 10px;
+  }
+
+.grid-containertea {
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 10px;
+}
+
+.grid-item {
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+  }
+
+/*.grid-containertea > .grid-item {
+    grid-column: 2/2;
+  }*/
+
+.line {
+    line-height: 1em;
+    border: solid #14a58c;
+    width: 100px;
+    border-radius: 0.50rem;
+    margin: auto;
+}
+
+.lineteam {
+  line-height: 1em;
+  border: solid #c8d9e5;
+  width: 100px;
+  border-radius: 0.50rem;
+  position: relative;
+  top: 120%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 90vw;
+}
+
+.lineskill {
+  line-height: 1em;
+  border: solid #c8d9e5;
+  width: 100px;
+  border-radius: 0.50rem;
+  margin: auto;
+}
+
+.linefooter {
+  line-height: 1em;
+  border: solid #273a71;
+  width: 100px;
+  border-radius: 0.50rem;
+  margin: auto;
+}
+
+.lineabout {
+  line-height: 1em;
+  border: solid #a03660;
+  width: 100px;
+  border-radius: 0.50rem;
+  margin: auto;
+}
+
+.image {
+  float: left;
+}
+
+h3 {
+    color: #8cd1ee;
+    font-size: 0.9rem;
+}
+
+.cap {
+  background-color: #273a71;
+  margin: auto;
+}
+
+#lname {
+  margin-left: 10px;
+}
+
+#fname {
+  margin-right: 10px;
+}
+
+#subject {
+  margin-bottom: 20px;
+}
+
+.allicons {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  justify-content: space-between ;
+  text-align: center;
+  transition: all ease-in-out 250ms;
+}
+
+.ico {
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  flex-grow: 1;
+}
+
+input[type=text], select, textarea {
+ 
+  padding: 12px;
+  border-radius: 4px;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+  border: none;
+}
+
+input[type=submit] {
+  background-color:#30bae7;
+  color: w#b6d5dd;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color:#90d0e6;
+}
+
+.containercontact {
+  border-radius: 5px;
+  padding-right: 80px;
+}
+
+::placeholder {
+  color: white;
+}
+
+
+label {
+  color :#273a71;
+  border: none;
+}
+
+#subject {
+  height: 200px;
+}
+
+.buttonsubmit {
+  background-color: #30bae7;
+  border-bottom: #299ec5;
+  display: flex;
+  flex-direction: center;
+  margin: auto;
+  color: white;
+}
+
+.burger {
+  height: 45px;
+  width: 45px;
+  padding: 0px;
+  font-size: 40px;
+  display: none;
+}
+
+.burger:hover{
+  background-color: #643a79;
+  border-radius: 150rem;
+  width: 60px;
+  height: 60px;
+}
+
+.formulaire {
+  width: 500px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.cap {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+
+
+.capmess {
+  display: flex;
+  flex-direction: center;
+  margin: auto;
+ 
+}
+
+/*MENU*/
+ul.burgerMenu {
+    display: flex;
+    justify-content: right;
+}
+
+ul.burgerMenu {
+    list-style-type: none;
+    overflow: hidden;
+  }
+  
+  ul.burgerMenu li {
+    float: left;
+  }
+  
+  ul.burgerMenu li  {
+    text-align: end;
+    padding: 10px 30px;
+    text-decoration: none;
+    transition: 0.8s;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    border-radius: 0.50rem;
+  }
+  
+ .allicons {
+   display: none;
+ }
+  
+  
+  @media screen and (max-width:780px) {
+  
+    ul.burgerMenu li {
+      display: none;
+    }
+  
+    .icon {
+      float: right;
+      display: inline-block;
+      height: 40px;
+      width: 40px;
+    }
+  
+  }
+  
+  @media screen and (max-width:780px) {
+  
+    ul.burgerMenu.responsive {
+      position: absolute;
+      display: flex;
+      flex-direction: column;
+      right: 0;
+      background-color: #643a79;
+      border-radius: 0.50rem;
+    }
+  
+    ul.burgerMenu.responsive li.icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+  
+    ul.burgerMenu.responsive li {
+      float: none;
+      display: flex;
+      justify-content: center;
+    }
+    .burger {
+      height: 45px;
+      padding: 0px;
+      font-size: 40px;
+      display: flex;
+    }
+
+    .allicons {
+      display: inline-block;
+    }
+  }
+  /*FIN MENU*/
+
+  @media only screen and (max-width: 550px){
+  .grid-containertea > .grid-item {
+    grid-column: 1/1;
+  }
+}
